@@ -25,10 +25,6 @@ export class ArticleComponent implements OnInit {
       this.articleDataService.getArticleByNumber(params['id']).subscribe(
         (res) => this.articleData = [res],
       )
-      setTimeout(() => {
-      console.log(this.articleData.) //log the entire params object
-        
-      }, 2000);
       console.log(params) //log the entire params object
       console.log(params['id']) //log the value of id
     });
