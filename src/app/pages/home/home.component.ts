@@ -9,10 +9,13 @@ import { ArticleDataServiceService } from 'src/app/service/article-data-service.
 })
 export class HomeComponent implements OnInit {
 
+  articleTitles: string []
+
 constructor(private articleDataService: ArticleDataServiceService) { }
 
   ngOnInit(): void {
-    this.articleDataService.getArticleByNumber("1").subscribe((res) => console.log(res, "in component"))
+    this.articleTitles = this.articleDataService.getAllarticleTitle(4);
+    console.log(this.articleTitles)
   }
 
 }

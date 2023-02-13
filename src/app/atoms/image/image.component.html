@@ -1,1 +1,3 @@
-<p>image works!</p>
+<ng-container *ngIf="image">
+    <img [src]="image.url" [alt]="image.alt" >
+</ng-container>

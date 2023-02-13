@@ -7,12 +7,11 @@ import { TextBlockModel } from 'src/app/utils/models/text-block.model';
   styleUrls: ['./text-block.component.scss']
 })
 export class TextBlockComponent implements OnInit {
-  @Input() textBlock: any;
+  @Input() textBlock: TextBlockModel;
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.textBlock,"che cazz")
   }
 
 }

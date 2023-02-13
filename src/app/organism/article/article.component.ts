@@ -23,10 +23,8 @@ export class ArticleComponent implements OnInit {
   ngOnInit(): void {
     this.routeSub = this.route.params.subscribe(params => {
       this.articleDataService.getArticleByNumber(params['id']).subscribe(
-        (res) => this.articleData = [res],
+        (res) => this.articleData = res.content,
       )
-      console.log(params) //log the entire params object
-      console.log(params['id']) //log the value of id
     });
   }
 

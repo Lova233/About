@@ -1,3 +1,6 @@
-<ng-container *ngFor="let item of articleData">
-    <app-text-block *ngIf="item.textBlock" [textBlock]="item.textBlock"></app-text-block>
-</ng-container>
+<div class="general-container">
+    <ng-container *ngFor="let item of articleData">
+        <app-text-block *ngIf="item.type === 'text'" [textBlock]="item"></app-text-block>
+        <app-image *ngIf="item.type === 'image'" [image]="item"></app-image>
+    </ng-container>
+</div>

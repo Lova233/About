@@ -1,4 +1,4 @@
 export interface ImageModel {
     url: string;
-    alt: string;
+    alt?: string;
 }

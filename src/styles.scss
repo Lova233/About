@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.general-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+// typo 
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Lora', serif;
+    color: rgb(66, 66, 66);
+    font-size: 1.3rem;
+    font-weight: 200;
+}
