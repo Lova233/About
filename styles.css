@@ -1,0 +1,63 @@
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4; /* Optional background color */
+  flex-direction: column; /* Stack everything vertically */
+}
+
+/* Reusable container style */
+.container, .navbar {
+  max-width: 800px;
+  width: 100%; /* Ensure it doesn't exceed the body width on smaller screens */
+  padding: 20px;
+  margin: 10px auto; /* Space between navbar and container */
+  background-color: #fff; /* Optional: Add a white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  border-radius: 8px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #000; /* Black color for the links */
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0 15px; /* Add space between links */
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Custom font and styles for the Markdown content */
+#content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Style headings from the Markdown */
+#content h1, #content h2, #content h3 {
+  font-weight: 700;
+}
+
+/* Style links in the content */
+#content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
