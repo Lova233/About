@@ -1,3 +1,32 @@
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+  body {
+    height: auto
+  }
+  .navbar {
+    align-items: center;
+  }
+
+  .navbar .navbar-item {
+    font-size: 24px; /* Ensure this font size applies */
+    padding: 8px 15px;
+    margin-bottom: 5px;
+  }
+
+  .logo {
+    width: 180px; /* Adjust logo size */
+    margin-bottom: 15px; /* Add space below the logo */
+  }
+
+  .container {
+    padding: 10px; /* Adjust padding on smaller screens */
+    margin: 5px; /* Reduce margin */
+    width: 90%; /* Make container fit within the screen */
+  }
+}
+
+
 /* Body styles */
 body {
   font-family: 'Roboto', sans-serif;
@@ -80,31 +109,3 @@ body {
 }
 
 
-
-/* Responsive layout for smaller screens */
-@media (max-width: 600px) {
-  body {
-    height: auto
-  }
-  .navbar {
-    align-items: center;
-    padding: 10px; /* Adjust padding for smaller screens */
-  }
-
-  .navbar-item {
-    font-size: 24px; /* Reduce font size for smaller screens */
-    padding: 8px 15px; /* Adjust padding for better fit */
-    margin-bottom: 5px; /* Add space between items */
-  }
-
-  .logo {
-    width: 180px; /* Adjust logo size */
-    margin-bottom: 15px; /* Add space below the logo */
-  }
-
-  .container {
-    padding: 10px; /* Adjust padding on smaller screens */
-    margin: 5px; /* Reduce margin */
-    width: 90%; /* Make container fit within the screen */
-  }
-}
