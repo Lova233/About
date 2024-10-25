@@ -13,18 +13,30 @@
 <body>
 
   <!-- Navigation Bar -->
-  <div class="navbar">
-    <a href="#" onclick="loadMarkdown('about.md')">About</a>
-    <a href="#" onclick="loadMarkdown('rule1.md')">Rule-1</a>
-    <a href="#" onclick="loadMarkdown('rule2.md')">Rule-2</a>
-    <a href="#" onclick="loadMarkdown('rule3.md')">Rule-3</a>
-    <a href="#" onclick="loadMarkdown('rule4.md')">Rule-4</a>
-    <a href="#" onclick="loadMarkdown('rule5.md')">Rule-5</a>
 
-  </div>
 
   <!-- Centered container for the Markdown content -->
   <div class="container">
+    <div class="navbar">
+      <a href="#" class="navbar-item" onclick="loadMarkdown('rule1.md')">
+        😊
+      </a>
+      <a href="#" class="navbar-item" onclick="loadMarkdown('rule2.md')">
+        ⚙️
+      </a>
+      <a href="#" class="navbar-item" onclick="loadMarkdown('rule3.md')">
+        🧠
+      </a>
+      <a href="#" class="navbar-item" onclick="loadMarkdown('rule4.md')">
+        🗣️
+      </a>
+      <a href="#" class="navbar-item" onclick="loadMarkdown('rule5.md')">
+        💥
+      </a>
+    </div>
+    <a href="#">
+      <img src="./images/logo.svg" alt="Logo" class="logo">
+    </a>
     <div id="content"></div>
   </div>
 

@@ -6,34 +6,51 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #f4f4f4; /* Optional background color */
-  flex-direction: column; /* Stack everything vertically */
+  background-color: #f4f4f4;
+  flex-direction: column;
+  height: auto
 }
 
 /* Reusable container style */
-.container, .navbar {
+.container {
   max-width: 800px;
   width: 100%; /* Ensure it doesn't exceed the body width on smaller screens */
   padding: 20px;
-  margin: 10px auto; /* Space between navbar and container */
-  background-color: #fff; /* Optional: Add a white background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin: 10px auto;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* Navigation bar styles */
+.logo {
+  max-width: 250px;
+}
+
+/* Navbar logo styling */
 .navbar {
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 8px;
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  justify-content: space-between; /* Adjusts links and logo */
+  align-items: center;
+}
+
+.navbar-item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .navbar a {
-  color: #000; /* Black color for the links */
+  color: #000;
   text-decoration: none;
   font-weight: 700;
-  margin: 0 15px; /* Add space between links */
+  font-size: 30px;
 }
 
 .navbar a:hover {
@@ -60,4 +77,34 @@ body {
 
 #content a:hover {
   text-decoration: underline;
+}
+
+
+
+/* Responsive layout for smaller screens */
+@media (max-width: 600px) {
+  body {
+    height: auto
+  }
+  .navbar {
+    align-items: center;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-item {
+    font-size: 24px; /* Reduce font size for smaller screens */
+    padding: 8px 15px; /* Adjust padding for better fit */
+    margin-bottom: 5px; /* Add space between items */
+  }
+
+  .logo {
+    width: 180px; /* Adjust logo size */
+    margin-bottom: 15px; /* Add space below the logo */
+  }
+
+  .container {
+    padding: 10px; /* Adjust padding on smaller screens */
+    margin: 5px; /* Reduce margin */
+    width: 90%; /* Make container fit within the screen */
+  }
 }
