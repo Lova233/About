@@ -15,6 +15,7 @@
   }
 
   .logo {
+    display: flex;
     width: 180px; /* Adjust logo size */
     margin-bottom: 15px; /* Add space below the logo */
   }
