@@ -24,7 +24,7 @@
     padding: 10px !important;; /* Adjust padding on smaller screens */
     margin: 5px !important;; /* Reduce margin */
     width: 90% !important;; /* Make container fit within the screen */
-    max-width: 400px !important;;
+    max-width: 300px !important;;
   }
 }
 
