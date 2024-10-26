@@ -21,9 +21,10 @@
   }
 
   .container {
-    padding: 10px; /* Adjust padding on smaller screens */
-    margin: 5px; /* Reduce margin */
-    width: 90%; /* Make container fit within the screen */
+    padding: 10px !important;; /* Adjust padding on smaller screens */
+    margin: 5px !important;; /* Reduce margin */
+    width: 90% !important;; /* Make container fit within the screen */
+    max-width: 400px !important;;
   }
 }
 
