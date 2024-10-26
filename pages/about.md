@@ -1,5 +1,5 @@
 
-## ✌️ Hi it's Me
+# ✌️ Hi it's Me
 I'm a Front-End Developer with a passion for creating seamless, intuitive user interfaces and working closely with UI/UX designers. To me, every product is like a living entity, growing and evolving with each interaction it has. These interactions shape the product and make it better over time. I enjoy the process of constant improvement, knowing that every detail matters.
 
 Throughout my journey, I've worked in diverse environments that have helped shape my approach to development. From various talks, books, and events I've attended, I've gathered inspiration that has become the foundation of the rules I try to follow in my work. These rules remind me of what truly matters: **humanity**, **habits**, **clarity**, **communication**, and **learning from failure**.

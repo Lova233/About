@@ -1,4 +1,4 @@
-# 😊 *Rule 1: Happiness in the Workplace*
+# 😊 *Happiness in the Workplace*
 
 You should be happy in your workplace. Your work environment should be a place where **humanity thrives**, not just productivity. Happiness at work isn’t just about hitting targets—it’s about finding fulfillment in the balance of what you give and what you receive from others.
 

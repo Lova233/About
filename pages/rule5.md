@@ -1,4 +1,4 @@
-# 💥 Rule 5: Embrace Failure as a Learning Opportunity
+# 💥 *Embrace Failure as a Learning Opportunity*
 
 Failure is an inevitable part of growth, especially in software development. How we manage failure is what ultimately defines us.
 

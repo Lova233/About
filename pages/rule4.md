@@ -1,4 +1,4 @@
-# 🗣️ *Rule 4: Communication Skills > Technical Skills*
+# 🗣️ *Communication Skills > Technical Skills*
 
 As programmers, we work with **people**, not just machines. Being able to communicate effectively across different areas of the business—development, marketing, design—creates significant, positive changes. While technical skills are important, **communication is what binds a team together** and ensures everyone is aligned.
 
