@@ -38,7 +38,15 @@ body {
   align-items: center;
   background-color: #f4f4f4;
   flex-direction: column;
-  height: auto
+  height: auto;
+  overflow-x: hidden;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* Reusable container style */
